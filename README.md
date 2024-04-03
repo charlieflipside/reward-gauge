@@ -100,6 +100,12 @@ wrangler deploy --config scheduler-reprex\wrangler.toml
 
 # Gauge Automation
 
-Automatically calling an Ethereum smart contract on a schedule with conditional constraints & attempts at gas savings.
+IN THE WORKS, RELEASING SOON.
+
+Automatically calling an Ethereum smart contract on a schedule with conditional constraints & attempts at gas savings. Includes
+
+- private key mgmt via environments
+- gas price modeling (try to save money)
+- Tracking & storage of past and pending scheduled transactions.
 
 
