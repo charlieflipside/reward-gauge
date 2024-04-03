@@ -1,0 +1,10 @@
+name = "scheduler-reprex"
+main = "src/scheduler.js"
+compatibility_date = "2024-03-29"
+
+kv_namespaces = [
+  { binding = "rewardGauge", id = "6a04097b387546ce9c85abd9d3b21634" }
+]
+
+[triggers]
+crons = ["* * * * *"] # * * * * * = run every minute
