@@ -2,6 +2,7 @@
   "name": "reward-gauge",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
@@ -9,5 +10,8 @@
   },
   "devDependencies": {
     "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "ethers": "^6.12.0"
   }
 }
