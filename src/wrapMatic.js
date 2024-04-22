@@ -7,7 +7,6 @@ const wmaticAddress = '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270';
 
 // polygon: https://polygon-rpc.com
 const provider = new ethers.JsonRpcProvider("https://polygon-rpc.com");
-// Assuming you have initialized the contract instance correctly with provider and signer
 const pk = privateKey[0].pk;
 
 const wallet = new ethers.Wallet(pk, provider);
